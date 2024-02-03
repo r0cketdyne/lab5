@@ -14,3 +14,5 @@ elif grade >= 80:
     print("a B? Surely you can do better than that")
 else:
     print("u failed. sleep more. study more. hopefully next time you won't get an F")
+
+#link to beth's solution. I didn't add grades for C, D and actual failure https://ibb.co/PZrh4pv
