@@ -30,3 +30,8 @@ elif user_sal >= 50000 and user_stat != 'married':
 else:
     user_sal += user_sal*0.10
     print(user_sal)
+    
+#I guess the calculation of the new salary 
+#in each branch of the if-elif-else statements should 
+#not be adding to the original salary, but 
+#instead, it should calculate the tax and subtract it.
