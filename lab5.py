@@ -13,15 +13,16 @@ tickets = int(input("Please enter the number of tickets: "))
 #did the same thing here as I did at line 11; there were two lines at this particular expression at the code wireframe supplied in canvas
 
 if age < 21:
+    inscost = 1500 + 250 * tickets
 #imported logic from table at canvas document
-    inscost = 1750*tickets
-elif age >= 21 and age <= 24:
-    inscost = 1450*tickets
+elif 21 <= age <= 24:
+    inscost = 1200 + 250 * tickets
 #imported logic from table at canvas document
-elif age > 24:
-    inscost = 1200*tickets
-#imported logic from table at canvas document. please see comments below the else statement
+elif age >= 25:
+    inscost = 1000 + 200 * tickets
+#imported logic from table at canvas document
 else:
+#imported logic from table at canvas document. please see comments below the else statement
     print('Noooo....')
 #if none of the conditionals at the elif statements above are met this executes implying a program failure.
         
