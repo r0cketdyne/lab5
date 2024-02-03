@@ -10,8 +10,8 @@ Created on Sat Feb  3 17:14:18 2024
 #this is very interesting.
 tax_multiplier = 0
 #set empty var for taxrate multiplier. need to initiate it
-user_sal = int(input("mf what is your salary...200K Tc I hope"))
-user_stat = str(input("are you married? hope not. seems like a terrible deal.\n if so, type married and press enter"))
+user_sal = int(input("mf what is your salary...\n200K Tc I hope\n"))
+user_stat = str(input("are you married? hope not. seems like a terrible deal.\n if so, type married and press enter\n"))
 #first prompt user for salary and filing status
 if  user_sal >= 100000 and user_stat == 'married':
     tax_multiplier = 0.20
