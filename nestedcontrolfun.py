@@ -37,3 +37,4 @@ else:
 #in each branch of the if-elif-else statements should 
 #not be adding to the original salary, but 
 #instead, it should calculate the tax and subtract it.
+#https://ibb.co/WWWhqgB actual solution. if's INSIDE the ELIF.
