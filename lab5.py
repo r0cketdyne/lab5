@@ -51,7 +51,7 @@ $1000 + $200 x number of tickets
 BRINGING IT ALL TOGETHER
 Print a message explaining the person's age and number of tickets on one line, and then print a message
 on the next line showing the computed insurance cost. Include a $ sign before the cost when you print it
-out!
+out! Can probably just do this minor amendment during Lab time on Fridays at 2pm
 """
 
 #Just realized this isn't done yet. Need to evaluate + $250 x number of tickets first AND THEN add $1500 to that. for each table computation. respectively.
